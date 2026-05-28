@@ -1,0 +1,5 @@
+quantity,value,module,output_file
+C_1000m_centerline_Bq_m3,0.0003054729338924,src/plume_gaussian.py,data/processed/plume_outputs/plume_receptors.csv
+C_1000m_200m_crosswind_Bq_m3,9.819411369759644e-06,src/plume_gaussian.py,data/processed/plume_outputs/plume_receptors.csv
+C_upwind_Bq_m3,0.0,src/plume_gaussian.py,data/processed/plume_outputs/plume_receptors.csv
+D002_peak_total_signal_counts,7505.4729338924,src/detector_model.py,data/processed/detector_outputs/detector_timeseries.csv

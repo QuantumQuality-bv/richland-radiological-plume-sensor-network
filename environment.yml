@@ -1,0 +1,11 @@
+name: richland-plume-sensor-network
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - pyyaml
+  - pytest
+  - scipy

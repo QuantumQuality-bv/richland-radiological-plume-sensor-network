@@ -1,0 +1,6 @@
+report_section,module,output_file
+Synthetic source and plume model,src/plume_gaussian.py,data/processed/plume_outputs/plume_receptors.csv
+Detector response simulation,src/detector_model.py,data/processed/detector_outputs/detector_timeseries.csv
+Sensor network comparison,src/network_optimization.py,data/processed/network_outputs/network_metrics.csv
+Source reconstruction and uncertainty,src/source_reconstruction.py,data/processed/source_reconstruction_outputs/likelihood_grid.csv
+Sensitivity and Monte Carlo,src/monte_carlo.py,data/processed/monte_carlo_outputs/monte_carlo_percentiles.csv
