@@ -1,0 +1,2 @@
+true_x_m,true_y_m,estimated_x_m,estimated_y_m,estimated_Q_Bq_s,localization_error_m,mismatch_J,relative_likelihood_max,noise_seed,noise_level,description
+0.0,0.0,-50.0,0.0,9.888064749910807,50.0,4.614303047841027,1.0,20260519,0.25,fixed-seed noisy synthetic display case

@@ -1,0 +1,7 @@
+weather_id,scenario_id,wind_speed_mps,wind_dir_deg,wind_dir_sigma_deg,stability_class,sigma_multiplier,temperature_C,pressure_kPa,relative_humidity_pct,notes
+W1,S1,3.0,0.0,5.0,D,1.00,20.0,101.3,40.0,moderate neutral baseline
+W2,S2,1.0,0.0,7.5,F,0.65,12.0,101.3,55.0,low wind stable narrow plume
+W3,S3,6.0,0.0,10.0,B,1.50,25.0,101.0,30.0,higher wind unstable broad plume
+W4,S4,3.0,0.0,20.0,D,1.00,20.0,101.3,40.0,wind direction uncertainty case
+W5,S5,3.0,0.0,5.0,D,1.00,20.0,101.3,40.0,elevated detector background case
+W6,S6,3.0,0.0,10.0,D,1.00,20.0,101.3,40.0,source reconstruction uncertainty case

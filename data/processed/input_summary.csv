@@ -1,0 +1,8 @@
+metric,value
+source_rows,6
+weather_rows,6
+receptor_rows,10
+candidate_detector_rows,24
+detector_background_rows,48
+scenario_count,6
+scope_status,synthetic_public_non_operational

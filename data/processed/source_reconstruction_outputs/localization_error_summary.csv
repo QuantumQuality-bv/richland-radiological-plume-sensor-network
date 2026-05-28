@@ -1,0 +1,2 @@
+true_x_m,true_y_m,estimated_x_m,estimated_y_m,localization_error_m,description
+0.0,0.0,0.0,0.0,0.0,synthetic inverse modeling localization error

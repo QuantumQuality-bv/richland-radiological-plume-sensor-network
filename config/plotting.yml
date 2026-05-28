@@ -1,0 +1,10 @@
+figure_policy:
+  export_png: true
+  export_pdf: true
+  dpi: 300
+  include_units: true
+  include_captions: true
+
+style:
+  title_prefix: "Synthetic modeling result:"
+  use_emergency_language: false

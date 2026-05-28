@@ -1,0 +1,11 @@
+receptor_id,x_m,y_m,z_m,receptor_type,include_in_validation,notes
+R001,1000.0,0.0,0.0,centerline,true,baseline centerline validation receptor
+R002,1000.0,200.0,0.0,off_centerline,true,crosswind validation receptor
+R003,-500.0,0.0,0.0,upwind,true,zero concentration validation receptor
+R004,500.0,0.0,0.0,near_field,true,near centerline validation receptor
+R005,2000.0,0.0,0.0,far_field,true,far centerline validation receptor
+R006,1000.0,0.0,10.0,elevated,false,elevated receptor test
+R007,3000.0,500.0,0.0,boundary,false,boundary-style receptor
+R008,1500.0,-250.0,0.0,off_centerline,false,negative crosswind validation receptor
+R009,250.0,0.0,0.0,near_field,false,very near downwind receptor
+R010,3500.0,0.0,0.0,far_field,false,extended centerline receptor

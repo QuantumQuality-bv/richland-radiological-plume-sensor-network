@@ -1,0 +1,21 @@
+run_modes:
+  validate_inputs: true
+  core_math: true
+  plume: false
+  detector: false
+  network: false
+  reconstruction: false
+  sensitivity: false
+  monte_carlo: false
+
+paths:
+  synthetic_data: data/synthetic/
+  processed_data: data/processed/
+  figures: figures/
+  matlab_exports: data/processed/matlab_exports/
+
+output_policy:
+  overwrite: true
+  save_intermediate: true
+  save_csv: true
+  save_json_metadata: true

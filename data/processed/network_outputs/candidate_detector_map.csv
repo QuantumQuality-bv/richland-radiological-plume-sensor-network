@@ -1,0 +1,25 @@
+detector_id,x_m,y_m,z_m,detector_type,response_factor,cost_proxy,power_option,comm_option,uptime_factor,candidate_group,notes,in_N1,in_N2,in_N3,in_N4
+D001,500.0,0.0,1.5,NaI_Tl,1000000.0,1.0,grid,cellular,0.98,core,near downwind centerline,True,True,True,True
+D002,1000.0,0.0,1.5,NaI_Tl,1000000.0,1.0,grid,cellular,0.98,core,baseline centerline detector,True,True,False,False
+D003,1000.0,200.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,ring,off-centerline positive y,True,False,False,False
+D004,1000.0,-200.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,ring,off-centerline negative y,True,False,False,False
+D005,2000.0,0.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,perimeter,far centerline detector,True,True,False,False
+D006,2000.0,300.0,1.5,GM_tube,650000.0,0.6,solar,radio,0.93,perimeter,low-cost off-centerline,False,False,False,False
+D007,2000.0,-300.0,1.5,GM_tube,650000.0,0.6,solar,radio,0.93,perimeter,low-cost off-centerline,False,False,True,True
+D008,3000.0,0.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,perimeter,extended downwind centerline,False,False,False,False
+D009,3000.0,500.0,1.5,GM_tube,650000.0,0.6,solar,radio,0.92,perimeter,far positive y,False,False,False,False
+D010,3000.0,-500.0,1.5,GM_tube,650000.0,0.6,solar,radio,0.92,perimeter,far negative y,False,False,False,False
+D011,0.0,500.0,1.5,NaI_Tl,1000000.0,1.0,grid,ethernet,0.98,ring,north crosswind reference,False,False,True,True
+D012,0.0,-500.0,1.5,NaI_Tl,1000000.0,1.0,grid,ethernet,0.98,ring,south crosswind reference,False,False,True,False
+D013,-500.0,0.0,1.5,GM_tube,650000.0,0.6,grid,cellular,0.97,ring,upwind reference detector,False,False,True,True
+D014,500.0,500.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,ring,near diagonal positive,False,False,False,False
+D015,500.0,-500.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,ring,near diagonal negative,False,False,False,False
+D016,1500.0,500.0,1.5,LaBr3,1300000.0,1.8,solar,cellular,0.94,enhanced,enhanced positive y detector,False,False,False,False
+D017,1500.0,-500.0,1.5,LaBr3,1300000.0,1.8,solar,cellular,0.94,enhanced,enhanced negative y detector,False,False,False,False
+D018,2500.0,250.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,wind_informed,wind-informed positive y,False,True,False,False
+D019,2500.0,-250.0,1.5,NaI_Tl,1000000.0,1.0,solar,radio,0.95,wind_informed,wind-informed negative y,False,True,False,False
+D020,3500.0,0.0,1.5,GM_tube,650000.0,0.6,solar,radio,0.92,perimeter,outer centerline detector,False,False,False,False
+D021,3500.0,700.0,1.5,GM_tube,650000.0,0.6,solar,radio,0.91,perimeter,outer positive y detector,False,False,False,False
+D022,3500.0,-700.0,1.5,GM_tube,650000.0,0.6,solar,radio,0.91,perimeter,outer negative y detector,False,False,False,False
+D023,750.0,150.0,1.5,NaI_Tl,1000000.0,1.0,battery,local,0.9,cost_constrained,portable near field,False,False,False,False
+D024,750.0,-150.0,1.5,NaI_Tl,1000000.0,1.0,battery,local,0.9,cost_constrained,portable near field,False,False,False,False

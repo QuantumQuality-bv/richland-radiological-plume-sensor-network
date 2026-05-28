@@ -1,0 +1,16 @@
+variable,percentile,value,run_name
+concentration_Bq_m3,5.0,0.0001175549996159008,quick_check
+concentration_Bq_m3,50.0,0.0003119619947303555,quick_check
+concentration_Bq_m3,95.0,0.0008715331770729287,quick_check
+net_signal_counts,5.0,112.9845163717239,quick_check
+net_signal_counts,50.0,305.087999277267,quick_check
+net_signal_counts,95.0,862.6227046185793,quick_check
+total_signal_counts,5.0,7228.5834474686935,quick_check
+total_signal_counts,50.0,7545.201629366681,quick_check
+total_signal_counts,95.0,8087.209537338042,quick_check
+time_to_detection_s,5.0,255.10894068602477,quick_check
+time_to_detection_s,50.0,351.4594922922976,quick_check
+time_to_detection_s,95.0,634.946979775333,quick_check
+localization_error_m,5.0,8.831723226353944,quick_check
+localization_error_m,50.0,44.729810214656894,quick_check
+localization_error_m,95.0,103.99017499982165,quick_check

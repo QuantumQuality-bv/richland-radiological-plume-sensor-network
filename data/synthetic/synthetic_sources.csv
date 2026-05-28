@@ -1,0 +1,7 @@
+source_id,scenario_id,x_m,y_m,z_m,MAR_Bq,DR,ARF,RF,LPF,duration_s,half_life_s,release_type,notes
+SRC_001,S1,0.0,0.0,0.0,1.0e9,0.10,1.0e-3,0.50,0.10,600.0,691200.0,continuous,synthetic baseline only
+SRC_002,S2,0.0,0.0,0.0,1.0e9,0.10,1.0e-3,0.50,0.10,900.0,691200.0,continuous,low wind stable synthetic case
+SRC_003,S3,0.0,0.0,0.0,1.0e9,0.10,1.0e-3,0.50,0.10,300.0,691200.0,continuous,higher wind unstable synthetic case
+SRC_004,S4,0.0,0.0,0.0,1.0e9,0.10,1.0e-3,0.50,0.10,600.0,691200.0,puff,wind shift synthetic case
+SRC_005,S5,0.0,0.0,0.0,1.0e9,0.10,1.0e-3,0.50,0.10,600.0,691200.0,continuous,elevated background synthetic case
+SRC_006,S6,0.0,0.0,0.0,1.0e9,0.10,1.0e-3,0.50,0.10,600.0,691200.0,continuous,source reconstruction synthetic case

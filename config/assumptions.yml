@@ -1,0 +1,35 @@
+project_scope:
+  synthetic_only: true
+  public_context_only: true
+  no_emergency_guidance: true
+  no_sensitive_layouts: true
+  no_operational_claims: true
+
+baseline_case:
+  source_id: SRC_001
+  scenario_id: S1
+  weather_id: W1
+  wind_speed_mps: 3.0
+  wind_dir_deg: 0.0
+  release_duration_s: 600.0
+  effective_release_height_m: 0.0
+  receptor_height_m: 0.0
+  integration_time_s: 60.0
+
+source_term:
+  MAR_Bq: 1.0e9
+  DR: 0.10
+  ARF: 1.0e-3
+  RF: 0.50
+  LPF: 0.10
+
+detector:
+  background_mean_counts: 7200.0
+  background_sigma_counts: 84.85
+  response_factor: 1.0e6
+  thresholds_sigma: [3, 5]
+
+monte_carlo:
+  quick_check_samples: 500
+  final_samples: 5000
+  seed: 20260513

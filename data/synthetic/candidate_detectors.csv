@@ -1,0 +1,25 @@
+detector_id,x_m,y_m,z_m,detector_type,response_factor,cost_proxy,power_option,comm_option,uptime_factor,candidate_group,notes
+D001,500.0,0.0,1.5,NaI_Tl,1.0e6,1.0,grid,cellular,0.98,core,near downwind centerline
+D002,1000.0,0.0,1.5,NaI_Tl,1.0e6,1.0,grid,cellular,0.98,core,baseline centerline detector
+D003,1000.0,200.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,ring,off-centerline positive y
+D004,1000.0,-200.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,ring,off-centerline negative y
+D005,2000.0,0.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,perimeter,far centerline detector
+D006,2000.0,300.0,1.5,GM_tube,6.5e5,0.6,solar,radio,0.93,perimeter,low-cost off-centerline
+D007,2000.0,-300.0,1.5,GM_tube,6.5e5,0.6,solar,radio,0.93,perimeter,low-cost off-centerline
+D008,3000.0,0.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,perimeter,extended downwind centerline
+D009,3000.0,500.0,1.5,GM_tube,6.5e5,0.6,solar,radio,0.92,perimeter,far positive y
+D010,3000.0,-500.0,1.5,GM_tube,6.5e5,0.6,solar,radio,0.92,perimeter,far negative y
+D011,0.0,500.0,1.5,NaI_Tl,1.0e6,1.0,grid,ethernet,0.98,ring,north crosswind reference
+D012,0.0,-500.0,1.5,NaI_Tl,1.0e6,1.0,grid,ethernet,0.98,ring,south crosswind reference
+D013,-500.0,0.0,1.5,GM_tube,6.5e5,0.6,grid,cellular,0.97,ring,upwind reference detector
+D014,500.0,500.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,ring,near diagonal positive
+D015,500.0,-500.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,ring,near diagonal negative
+D016,1500.0,500.0,1.5,LaBr3,1.3e6,1.8,solar,cellular,0.94,enhanced,enhanced positive y detector
+D017,1500.0,-500.0,1.5,LaBr3,1.3e6,1.8,solar,cellular,0.94,enhanced,enhanced negative y detector
+D018,2500.0,250.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,wind_informed,wind-informed positive y
+D019,2500.0,-250.0,1.5,NaI_Tl,1.0e6,1.0,solar,radio,0.95,wind_informed,wind-informed negative y
+D020,3500.0,0.0,1.5,GM_tube,6.5e5,0.6,solar,radio,0.92,perimeter,outer centerline detector
+D021,3500.0,700.0,1.5,GM_tube,6.5e5,0.6,solar,radio,0.91,perimeter,outer positive y detector
+D022,3500.0,-700.0,1.5,GM_tube,6.5e5,0.6,solar,radio,0.91,perimeter,outer negative y detector
+D023,750.0,150.0,1.5,NaI_Tl,1.0e6,1.0,battery,local,0.90,cost_constrained,portable near field
+D024,750.0,-150.0,1.5,NaI_Tl,1.0e6,1.0,battery,local,0.90,cost_constrained,portable near field
